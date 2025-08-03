@@ -1,5 +1,4 @@
-import React from 'react';
-import { Download, Calendar, MapPin, Award, Code, Users } from 'lucide-react';
+import { Download, Calendar, Award, Code } from 'lucide-react';
 
 const Resume = () => {
   const education = [
@@ -17,7 +16,7 @@ const Resume = () => {
     }
   ];
 
-  const experience = []; // No work experience yet
+  // Experience section removed as per user's current status
 
   const skills = {
     "Frontend": ["React.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
