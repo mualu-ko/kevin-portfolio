@@ -11,7 +11,7 @@ const Resume = () => {
     {
       degree: "Professional Foundations",
       institution: "ALX Africa",
-      period: "2023 - 2023",
+      period: "2025 - 2025",
       description: "Completed a comprehensive program focused on professional development, leadership, and technical skills in the tech industry."
     }
   ];
