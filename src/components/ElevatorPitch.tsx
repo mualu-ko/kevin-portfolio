@@ -38,19 +38,18 @@ const ElevatorPitch = () => {
           {/* Video Section */}
           <div className="order-2 lg:order-1">
             <div className="relative">
-              {/* Video Placeholder */}
-              <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-2xl flex items-center justify-center group cursor-pointer hover:shadow-3xl transition-all duration-300">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-700 transition-colors duration-300">
-                    <Play size={32} className="text-white ml-1" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                    Elevator Pitch Video
-                  </h3>
-                  <p className="text-gray-500">
-                    Click to play when video is uploaded
-                  </p>
-                </div>
+              {/* Embedded YouTube Video */}
+              <div className="aspect-video rounded-2xl shadow-2xl overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/4rYFgdZVaj8"
+                  title="Elevator Pitch Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="rounded-2xl w-full h-full"
+                ></iframe>
               </div>
 
               {/* Upload Instructions */}
